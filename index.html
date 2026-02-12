@@ -61,14 +61,12 @@
     </div>
 
     <script>
-        // Clear the session flag on first entry to ensure loading screen shows
         sessionStorage.removeItem('hasSeenLoading');
         
         const names = [
             'Mokshil Shah',
-            'Student Developer',
-            'Backend Developer', 
             'Web Designer',
+            'Backend Developer', 
             'Mokshil Shah'
         ];
         
@@ -86,7 +84,6 @@
                 }, 200);
             } else {
                 setTimeout(() => {
-                    // Set flag before redirecting
                     sessionStorage.setItem('hasSeenLoading', 'true');
                     window.location.href = 'pages/about.html';
                 }, 500);
@@ -97,3 +94,4 @@
     </script>
 </body>
 </html>
+
