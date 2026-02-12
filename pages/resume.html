@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Resume - Mokshil Shah</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <div id="loading-screen" style="display: none;">
+        <div class="loader">
+            <div class="loader-text" id="loading-name">Mokshil Shah</div>
+            <div class="loader-quote">"Transforming ideas into Digital Experiences"</div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MS</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link active">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <aside class="sidebar" id="sidebar">
+            <div class="profile-card">
+                <div class="profile-image-container">
+                    <img src="../images/Avatar.png" alt="Mokshil Shah" class="profile-image">
+                </div>
+                
+                <div class="profile-info">
+                    <h1 class="profile-name">Mokshil Shah</h1>
+                    <p class="profile-role">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                </div>
+
+                <div class="profile-divider"></div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:Mokshilshah000@gmail.com" class="contact-value">Mokshilshah000@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+916352834093" class="contact-value">+91 63528 34093</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Ahmedabad, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Mokshilxhah" target="_blank" class="social-link" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mokshil-shah-4732b5335/" target="_blank" class="social-link" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Mokshil_xhah/" target="_blank" class="social-link" data-tooltip="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+
+                <button class="download-cv-btn" onclick="window.open('../images/Mokshil_Shah.pdf')">
+                    <i class="fas fa-download"></i>
+                    <span>Download CV</span>
+                </button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section id="resume" class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Resume</h2>
+                    <div class="section-subtitle">My Journey & Experience</div>
+                </div>
+
+                <div class="resume-content">
+                    <div class="education-section">
+                        <h3 class="resume-section-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education
+                        </h3>
+                        
+                        <div class="education-grid">
+                            <div class="education-card">
+                                <div class="education-header">
+                                    <div class="education-icon">
+                                        <i class="fas fa-university"></i>
+                                    </div>
+                                    <div class="education-info">
+                                        <h4>Bachelor of Technology - CST</h4>
+                                        <p class="institution">Lok Jagruti University, Ahmedabad</p>
+                                        <span class="education-date">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            2024 - 2028
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="education-details">
+                                    <div class="detail-item">
+                                        <span class="detail-label">Branch:</span>
+                                        <span class="detail-value">Computer Science and Technology</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <span class="detail-label">SPI:</span>
+                                        <span class="detail-value">7+</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education-card">
+                                <div class="education-header">
+                                    <div class="education-icon">
+                                        <i class="fas fa-school"></i>
+                                    </div>
+                                    <div class="education-info">
+                                        <h4>Higher Secondary (12th)</h4>
+                                        <p class="institution">Radiant English Academy, Surat</p>
+                                        <span class="education-date">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            2022 - 2024
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="education-details">
+                                    <div class="detail-item">
+                                        <span class="detail-label">Board:</span>
+                                        <span class="detail-value">CBSE</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <span class="detail-label">Grade:</span>
+                                        <span class="detail-value">76.6%</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <span class="detail-label">Stream:</span>
+                                        <span class="detail-value">Science (PCM)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="education-card">
+                                <div class="education-header">
+                                    <div class="education-icon">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <div class="education-info">
+                                        <h4>Secondary (10th)</h4>
+                                        <p class="institution">Radiant English Academy, Surat</p>
+                                        <span class="education-date">
+                                            <i class="fas fa-calendar-alt"></i>
+                                            2020 - 2022
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="education-details">
+                                    <div class="detail-item">
+                                        <span class="detail-label">Board:</span>
+                                        <span class="detail-value">CBSE</span>
+                                    </div>
+                                    <div class="detail-item">
+                                        <span class="detail-label">Grade:</span>
+                                        <span class="detail-value">86%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-section">
+                        <h3 class="resume-section-title">
+                            <i class="fas fa-briefcase"></i>
+                            Experience
+                        </h3>
+                        <div class="experience-card-large">
+                            <div class="experience-icon-large">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                            <div class="experience-content-large">
+                                <h4>Fresher - Ready to Start My Journey</h4>
+                                <p>Eager to begin my professional career and contribute to innovative projects. Looking forward to learning from experienced developers and applying my skills in real-world scenarios.</p>
+                                <div class="experience-tags">
+                                    <span class="tag">Quick Learner</span>
+                                    <span class="tag">Team Player</span>
+                                    <span class="tag">Problem Solver</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../js/portfolio.js"></script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Projects - Mokshil Shah</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <div id="loading-screen" style="display: none;">
+        <div class="loader">
+            <div class="loader-text" id="loading-name">Mokshil Shah</div>
+            <div class="loader-quote">"Transforming ideas into Digital Experiences"</div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MS</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <aside class="sidebar" id="sidebar">
+            <div class="profile-card">
+                <div class="profile-image-container">
+                    <img src="../images/Avatar.png" alt="Mokshil Shah" class="profile-image">
+                </div>
+                
+                <div class="profile-info">
+                    <h1 class="profile-name">Mokshil Shah</h1>
+                    <p class="profile-role">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                </div>
+
+                <div class="profile-divider"></div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:Mokshilshah000@gmail.com" class="contact-value">Mokshilshah000@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+916352834093" class="contact-value">+91 63528 34093</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Ahmedabad, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Mokshilxhah" target="_blank" class="social-link" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mokshil-shah-4732b5335/" target="_blank" class="social-link" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Mokshil_xhah/" target="_blank" class="social-link" data-tooltip="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+
+                <button class="download-cv-btn" onclick="window.open('../images/Mokshil_Shah.pdf')">
+                    <i class="fas fa-download"></i>
+                    <span>Download CV</span>
+                </button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section id="projects" class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-subtitle">My recent work</div>
+                </div>
+
+                <div class="projects-content">
+                    <div class="project-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                        <button class="filter-btn" data-filter="backend">Backend</button>
+                        <button class="filter-btn" data-filter="web">Web Design</button>
+                        <button class="filter-btn" data-filter="personal">Personal</button>
+                    </div>
+
+                    <div class="projects-grid">
+                        <div class="project-card" data-category="web">
+                            <div class="project-image">
+                                <img src="../images/Insta.png" alt="InstaLite Project">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/Mokshilxhah/Insta-Lite" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>InstaLite</h4>
+                                <p>A lightweight Instagram clone (Console Based)</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Java</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-category="web">
+                            <div class="project-image">
+                                <img src="../images/Sneakova.png" alt="Sneakova">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/Mokshilxhah/Sneakova" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>Sneakova</h4>
+                                <p>E-commerce platform for sneaker enthusiasts with modern design.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">⌛ In Progress</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-category="web">
+                            <div class="project-image">
+                                <img src="../images/Velora.png" alt="Velora">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/Mokshilxhah/Velora" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>Velora</h4>
+                                <p>Perfume e-commerce website with elegant design and smooth UX.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">⌛ In Progress</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-category="personal">
+                            <div class="project-image">
+                                <img src="../images/Portfolio.png" alt="Portfolio">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/Mokshilxhah/Portfolio-Website" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>Portfolio Website</h4>
+                                <p>Personal portfolio showcasing my skills and projects.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-category="personal">
+                            <div class="project-image">
+                                <img src="../images/begin2code.png" alt="Begin2Code">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/Mokshilxhah/Begin2code" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>Begin2Code</h4>
+                                <p>Deployed Ed-tech Platform With Programming Courses</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Flask</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-category="backend">
+                            <div class="project-image">
+                                <img src="../images/bg.gif" alt="Pantry To Plate">
+                                <div class="project-overlay">
+                                    <div class="project-links">
+                                        <a href="https://github.com/Mokshilxhah/Pantry-To-Plate" target="_blank" class="project-link">
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a href="#" class="project-link">
+                                            <i class="fas fa-external-link-alt"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="project-info">
+                                <h4>Pantry To Plate</h4>
+                                <p>Recipe suggestion app based on available ingredients.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">Java</span>
+                                    <span class="tech-tag">Spring Boot</span>
+                                    <span class="tech-tag">⌛ In Progress</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="projects-status">
+                        <div class="status-indicator">
+                            <i class="fas fa-hourglass-half"></i>
+                            <span>More projects in progress...</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../js/portfolio.js"></script>
+</body>
+</html>

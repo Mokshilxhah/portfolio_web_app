@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Skills - Mokshil Shah</title>
+</head>
+<body>
+    <div id="particles-js"></div>
+    
+    <div id="loading-screen" style="display: none;">
+        <div class="loader">
+            <div class="loader-text" id="loading-name">Mokshil Shah</div>
+            <div class="loader-quote">"Transforming ideas into Digital Experiences"</div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MS</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="resume.html" class="nav-link">
+                        <i class="fas fa-file-alt"></i>
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link active">
+                        <i class="fas fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <aside class="sidebar" id="sidebar">
+            <div class="profile-card">
+                <div class="profile-image-container">
+                    <img src="../images/Avatar.png" alt="Mokshil Shah" class="profile-image">
+                </div>
+                
+                <div class="profile-info">
+                    <h1 class="profile-name">Mokshil Shah</h1>
+                    <p class="profile-role">
+                        <span class="typing-text"></span>
+                        <span class="cursor">|</span>
+                    </p>
+                </div>
+
+                <div class="profile-divider"></div>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:Mokshilshah000@gmail.com" class="contact-value">Mokshilshah000@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+916352834093" class="contact-value">+91 63528 34093</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Ahmedabad, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Mokshilxhah" target="_blank" class="social-link" data-tooltip="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mokshil-shah-4732b5335/" target="_blank" class="social-link" data-tooltip="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://leetcode.com/u/Mokshil_xhah/" target="_blank" class="social-link" data-tooltip="LeetCode">
+                        <i class="fas fa-code"></i>
+                    </a>
+                </div>
+
+                <button class="download-cv-btn" onclick="window.open('../images/Mokshil_Shah.pdf')">
+                    <i class="fas fa-download"></i>
+                    <span>Download CV</span>
+                </button>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section id="skills" class="content-section active">
+                <div class="section-header">
+                    <h2 class="section-title">Skills</h2>
+                    <div class="section-subtitle">My technical expertise</div>
+                </div>
+
+                <div class="skills-content">
+                    <div class="skills-header">
+                        <h3 class="skills-title">Secret <span class="highlight">Ingreidents</span></h3>
+                    </div>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="java">
+                            <div class="skill-icon">
+                                <i class="fab fa-java"></i>
+                            </div>
+                            <div class="skill-name">Java</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="python">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-name">Python</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="js">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-name">JavaScript</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="html">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-name">HTML5</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="css">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-name">CSS3</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="bootstrap">
+                            <div class="skill-icon">
+                                <i class="fas fa-bootstrap"></i>
+                            </div>
+                            <div class="skill-name">Bootstrap</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="flask">
+                            <div class="skill-icon">
+                                <i class="fas fa-flask"></i>
+                            </div>
+                            <div class="skill-name">Flask</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="sql">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-name">SQL</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="git">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-name">Git</div>
+                        </div>
+
+                        <div class="skill-item" data-skill="github">
+                            <div class="skill-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="skill-name">GitHub</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="../js/portfolio.js"></script>
+</body>
+</html>
