@@ -1218,6 +1218,9 @@ body {
 .skill-item[data-skill="js"] .skill-icon { color: #f7df1e; }
 .skill-item[data-skill="git"] .skill-icon { color: #f05032; }
 .skill-item[data-skill="github"] .skill-icon { color: #ffffff; }
+.skill-item[data-skill="spring"] .skill-icon { color: #6db33f; }
+.skill-item[data-skill="springboot"] .skill-icon { color: #6db33f; }
+.skill-item[data-skill="mern"] .skill-icon { color: #3fa037; }
 
 .project-filters {
     display: flex;
