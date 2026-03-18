@@ -1212,6 +1212,7 @@ body {
 
 .skill-item[data-skill="java"] .skill-icon { color: #f89820; }
 .skill-item[data-skill="python"] .skill-icon { color: #3776ab; }
+.skill-item[data-skill="typescript"] .skill-icon { color: #3178c6; }
 .skill-item[data-skill="sql"] .skill-icon { color: #00758f; }
 .skill-item[data-skill="html"] .skill-icon { color: #e34f26; }
 .skill-item[data-skill="css"] .skill-icon { color: #1572b6; }
